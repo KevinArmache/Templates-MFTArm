@@ -1,0 +1,145 @@
+
+h1 {
+    font-size: 75px !important;
+    font-weight: bold !important;
+    letter-spacing: 5px;
+  }
+  
+  .Container {
+    display: flex;
+  }
+  .Left-side {
+    padding-top: 150px;
+    font-size: 30px;
+    text-align: left;
+    border: solid 1px black;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Left-side > div > p {
+    padding-top: 40px;
+    color: #181616;
+    opacity: 0.4;
+  }
+  .Right-side {
+    border: solid 1px red;
+    width: 50%;
+  }
+  .Vector2 {
+    position: absolute;
+    width: 57.38px;
+    height: 57.38px;
+    left: 640px;
+    top: 370px;
+    transform: rotate(-9.12deg);
+  }
+  
+  .Vector3 {
+    position: absolute;
+    width: 147.5px;
+    height: 106px;
+    left: 750px;
+    top: 200px;
+    opacity: 0.6;
+  }
+  
+  .Left-side-button {
+    padding-top: 50px;
+    display: flex;
+    width: 65%;
+    align-items: normal !important;
+  }
+  .Left-side-button > div:nth-child(1) {
+    text-align: center;
+    border-radius: 8px;
+    padding: 20px, 28px, 20px, 28px;
+    background-color: #ffeeb6;
+    width: 197px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Left-side-button > div:nth-child(2) {
+    text-align: center;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Left-side-button > div:nth-child(1) > a {
+    text-decoration: none !important;
+    font-weight: bold;
+    color: #181616;
+    font-size: 20px;
+  }
+  
+  .Left-side-button > div:nth-child(2) > a {
+    text-decoration: line !important;
+    color: #181616;
+    font-weight: 700;
+    opacity: 0.5;
+    font-size: 20px;
+  }
+  
+  .Notation {
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    margin-left: -125px;
+  }
+  
+  .Notation-first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400 !important;
+    color: #181616;
+    opacity: 0.6;
+    line-height: 24px;
+    margin-bottom: 0rem !important;
+    font-size: 20px !important;
+    width: 40%;
+    
+
+    
+  }
+
+  .Notation-first > p {
+ 
+    margin-bottom: 0rem !important;
+    
+
+    
+  }
+  
+  .Notation-two > p {
+ 
+    margin-bottom: 0rem !important;
+    
+
+    
+  }
+  .Notation-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 400 !important;
+    color: #181616;
+    opacity: 0.6;
+    line-height: 24px;
+    margin-bottom: 0rem !important;
+    font-size: 20px !important;
+    width: 60%;
+    margin-bottom: 0rem !important;
+  }
+  

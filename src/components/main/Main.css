@@ -1,0 +1,59 @@
+.Main {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  overflow: visible;
+}
+
+.In-left {
+  display: flex;
+  margin-left: -205px;
+  width: 40%;
+  justify-content: space-around;
+  align-items: center;
+}
+.In-left > li > a {
+  color: #747373;
+  font-size: 25px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.In-right {
+  text-align: center;
+  width: 8%;
+  float: right;
+}
+
+.In-right > li {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #181616;
+}
+
+.In-right > li > a {
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  text-decoration: none;
+
+}
+
+.In-left > li > a:hover {
+  color: #ffeeb6;
+}
+
+.In-right > li > a:hover {
+  color: #ffeeb6;
+}
+
+
+.Vector4 {
+  background-image: url("../../assets/Vector4.svg");
+  position: absolute;
+  width: 579px;
+  height: 520px;
+  left: -114px;
+  top: -10px;
+  z-index: -1000;
+  }
