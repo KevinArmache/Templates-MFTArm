@@ -160,8 +160,8 @@ transform: rotate(-9.12deg);
 
 .Right-side > div:nth-child(1)  {
   border: solid 4px #e8e8e8;
-  height: 65vh;
-  width: 33vw;
+  height: 55vh;
+  width: 30vw;
   margin: 0 auto;
   border-top-right-radius: 100%;
   border-top-left-radius: 100%;
@@ -173,8 +173,8 @@ transform: rotate(-9.12deg);
 .Right-side > div:nth-child(1) > div {
  
   background-color: #fbeab3;
-  height: 60vh;
-  width: 30vw;
+  height: 48vh;
+  width: 27vw;
   margin: 0 auto;
   border-top-right-radius: 100%;
   border-top-left-radius: 100%;
@@ -182,13 +182,78 @@ transform: rotate(-9.12deg);
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: visible;
-  
 }
 
 .Business-women {
-  margin-top: -70px;
+  margin-top: -110px;
   display: flex;
   align-items: center;
   
+}
+
+.First-bar{
+position: absolute;
+width: 223px;
+height: 75px;
+left: 1500px;
+top: 300px;
+background: #FFFFFF;
+border-radius: 6.47249px;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+box-shadow: 0px 10.5178px 38.8349px rgba(0, 0, 0, 0.1);
+}
+
+.First-bar > div:nth-child(1) > span {
+  color: #181616;
+  opacity: 0.6;
+}
+
+progress {
+  
+  border: none;
+  width: 185px;
+  height: 9px;
+  background: #FFEEB6;
+  border-radius: 2.42718px;
+}
+
+progress {
+  border-radius: 2.42718px;
+  color: lightblue;
+}
+
+progress::-webkit-progress-value {
+  background:  #F9D04C;
+}
+
+progress::-moz-progress-bar {
+  background: #F9D04C;
+}
+
+::-webkit-progress-bar {
+  background-color: #FFEEB6;
+}
+
+.Followers-target {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Followers-target  > div{
+
+  padding: 4.85437px 8.09061px;
+  border-radius: 26.699px;
+  background: rgba(19, 216, 95, 0.2);
+  }
+
+.Followers-target > div  > span {
+
+
+color: #13D85F;
+font-weight: bold;
+line-height: 12px;
 }

@@ -112,7 +112,17 @@ function Home() {
         </div>
 
         <div className="Progress-bar">
-          <div className="First-bar"></div>
+          <div className="First-bar">
+            <div className="Followers-target">
+              <span>Followers target</span>
+              <div>
+                <span>+219K</span>
+              </div>
+            </div>
+            <div>
+              <progress id="file" value="70" max="100"></progress>
+            </div>
+          </div>
           <div className="Second-bar"></div>
           <div className="three-bar"></div>
         </div>
