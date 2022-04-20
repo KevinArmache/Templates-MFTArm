@@ -1,6 +1,8 @@
 import "../Home/Home.css";
 import Vector2 from "../../assets/Vector2.svg";
 import Vector3 from "../../assets/Vector3.svg";
+import Vector5 from "../../assets/Vector5.png";
+import BusinessWomen from "../../assets/businesswomen.png";
 
 function Home() {
   return (
@@ -91,7 +93,28 @@ function Home() {
 
       <div className="Right-side">
         <div className="First-container">
-          <div className="Second-container"></div>
+          <img
+            className="Vector5"
+            src={Vector5}
+            alt="Vector 5"
+            width="150"
+            height="150"
+          />
+          <div className="Second-container">
+            <img
+              className="Business-women"
+              src={BusinessWomen}
+              alt="Business Women"
+              width="500"
+              height="600"
+            />
+          </div>
+        </div>
+
+        <div className="Progress-bar">
+          <div className="First-bar"></div>
+          <div className="Second-bar"></div>
+          <div className="three-bar"></div>
         </div>
       </div>
     </div>
