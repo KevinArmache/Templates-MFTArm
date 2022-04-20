@@ -88,6 +88,12 @@ function Home() {
           </div>
         </div>
       </div>
+
+      <div className="Right-side">
+        <div className="First-container">
+          <div className="Second-container"></div>
+        </div>
+      </div>
     </div>
   );
 }

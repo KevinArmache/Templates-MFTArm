@@ -143,3 +143,35 @@ h1 {
     margin-bottom: 0rem !important;
   }
   
+.Right-side {
+    border: solid 2px blue;
+    display: flex;
+    align-items: center;
+    overflow: visible;
+    margin-top: 125px;
+}
+
+.Right-side > div  {
+  border: solid 4px #e8e8e8;
+  height: 70vh;
+  width: 40vw;
+  margin: 0 auto;
+  border-top-right-radius: 100%;
+  border-top-left-radius: 100%;
+  display: flex;
+  align-items: center;
+
+}
+
+.Right-side > div > div {
+ 
+  background-color: #fbeab3;
+  height: 64vh;
+  width: 37vw;
+  margin: 0 auto;
+  border-top-right-radius: 100%;
+  border-top-left-radius: 100%;
+ 
+
+
+}
