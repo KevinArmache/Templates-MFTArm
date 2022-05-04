@@ -1,0 +1,26 @@
+.container-features {
+    overflow: hidden;
+}
+.container-background{
+    border: solid 2px black;
+    width: 50%;
+    margin-top: 500px ;
+    height: 707px;
+    background: linear-gradient(154.64deg, #22242F 3.72%, #1B1916 84.36%);
+    transform: rotate(357deg);
+    width:2000px;
+    margin-left: -50px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-begin {
+    border: solid 2px red;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    height: 100%;
+    width: 95%;
+    transform: rotate(2.9deg);
+}
