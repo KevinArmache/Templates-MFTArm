@@ -174,28 +174,31 @@ function Home() {
 
                 <div className="bar-2">
                   <div className="bar-container">
-                    <strong className="bar"></strong>
+                    <div className="bar"></div>
                   </div>
                   <span>Sun</span>
                 </div>
 
                 <div className="bar-3">
                   <div className="bar-container">
-                    <strong className="bar"></strong>
+                    <div className="bar"></div>
                   </div>
                   <span>Mon</span>
                 </div>
 
                 <div className="bar-4">
+                  <div className="container-389K">
+                    <span className="Text-389K">389k</span>
+                  </div>
                   <div className="bar-container">
-                    <strong className="bar"></strong>
+                    <div className="bar"></div>
                   </div>
                   <span>Mon</span>
                 </div>
 
                 <div className="bar-5">
                   <div className="bar-container">
-                    <strong className="bar"></strong>
+                    <div className="bar"></div>
                   </div>
                   <span>Mon</span>
                 </div>

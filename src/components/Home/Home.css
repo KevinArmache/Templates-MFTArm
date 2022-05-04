@@ -288,8 +288,8 @@ progress::-moz-progress-bar {
   position: absolute;
   width: 227px;
   height: 200px;
-  left: 720px;
-  top: 601px;
+  left: 1100px;
+  top: 530px;
   background: #ffffff;
   box-shadow: 0px 13px 48px rgba(0, 0, 0, 0.05);
   border-radius: 8px;
@@ -310,40 +310,38 @@ progress::-moz-progress-bar {
   margin-left: 35px;
 }
 
-.progress-bar-container{
-  border: solid 2px black;
+.progress-bar-container {
   height: 150px;
   display: flex;
-  flex-direction:unset;
+  flex-direction: unset;
   justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+
+
 }
 
 .bar-1 {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-border: solid 2px green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-
-
 .bar-1 > div {
-position: relative;
-border: solid 2px red;
-width: 30px;
-height: 110px;
-
+  position: relative;
+  width: 30px;
+  height: 110px;
 }
 
 .bar-1 > div > .bar {
   width: 12px;
   height: 49.08px;
-  background: #F9D04C; 
+  background: #f9d04c;
   opacity: 0.32;
-  border-radius: 2px; 
-  position: absolute;                 
-  bottom: 0;                       
+  border-radius: 2px;
+  position: absolute;
+  bottom: 0;
   margin-left: auto;
   margin-right: auto;
   left: 0;
@@ -351,87 +349,36 @@ height: 110px;
   text-align: center;
 }
 
-.bar-1 > span{
+.bar-1 > span {
   color: #181616;
   opacity: 0.6;
   font-weight: 400;
   font-size: 12px;
-  
-  }
+}
 
-
-  /*  */
-
+/*  */
 
 .bar-2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: solid 2px green;
-  }
-  
-  
-  
-  .bar-2 > div {
+}
+
+.bar-2 > div {
   position: relative;
-  border: solid 2px red;
   width: 30px;
   height: 110px;
-  
-  }
-  
-  .bar-2 > div > .bar {
-    width: 12px;
-    height: 68.65px;
-    background: #F9D04C; 
-    opacity: 0.32;
-    border-radius: 2px; 
-    position: absolute;                 
-    bottom: 0;                       
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    text-align: center;
-  }
-  
-  .bar-2 > span{
-    color: #181616;
-    opacity: 0.6;
-    font-weight: 400;
-    font-size: 12px;
-    
-    }
-  /*  */
-
-
-.bar-3 {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-border: solid 2px green;
 }
 
-
-
-.bar-3 > div {
-position: relative;
-border: solid 2px red;
-width: 30px;
-height: 110px;
-
-}
-
-.bar-3 > div > .bar {
+.bar-2 > div > .bar {
   width: 12px;
-  height: 60.07px;
-  background: #F9D04C; 
+  height: 68.65px;
+  background: #f9d04c;
   opacity: 0.32;
-  border-radius: 2px; 
-  position: absolute;                 
-  bottom: 0;                       
+  border-radius: 2px;
+  position: absolute;
+  bottom: 0;
   margin-left: auto;
   margin-right: auto;
   left: 0;
@@ -439,7 +386,43 @@ height: 110px;
   text-align: center;
 }
 
-.bar-3 > span{
+.bar-2 > span {
+  color: #181616;
+  opacity: 0.6;
+  font-weight: 400;
+  font-size: 12px;
+}
+/*  */
+
+.bar-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bar-3 > div {
+  position: relative;
+  width: 30px;
+  height: 110px;
+}
+
+.bar-3 > div > .bar {
+  width: 12px;
+  height: 60.07px;
+  background: #f9d04c;
+  opacity: 0.32;
+  border-radius: 2px;
+  position: absolute;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.bar-3 > span {
   color: #181616;
   opacity: 0.6;
   font-weight: 400;
@@ -448,89 +431,97 @@ height: 110px;
 
 /*  */
 
-
 .bar-4 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: solid 2px green;
-  }
-  
-  
-  
-  .bar-4 > div {
+}
+
+.bar-4 > .bar-container {
   position: relative;
-  border: solid 2px red;
   width: 30px;
   height: 110px;
-  
-  }
-  
-  .bar-4 > div > .bar {
-    width: 12px;
-    height: 76.7px;
-    background:  #F9D04C;
-  
-    border-radius: 2px; 
-    position: absolute;                 
-    bottom: 0;                       
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    text-align: center;
-  }
-  
-  .bar-4 > span{
-    color: #181616;
-    opacity: 0.6;
-    font-weight: 400;
-    font-size: 12px;
-    
-    }
-  
-/*  */
+  ;
+}
 
+.bar-4 > .bar-container > .bar {
+  width: 12px;
+  height: 76.7px;
+  background: #f9d04c;
+  border-radius: 2px;
+  position: absolute;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.bar-4 > span {
+  color: #181616;
+  opacity: 0.6;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.container-389K{
+  position: absolute;
+  margin-top: -120px;
+  width: 47px;
+  height: 27px;
+  background: #f9d04c;
+  border-radius: 33px;
+  padding: 6px 10px;
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+}
+
+.Text-389K {
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+/*  */
 
 .bar-5 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: solid 2px green;
-  }
-  
-  
-  
-  .bar-5 > div {
+}
+
+.bar-5 > div {
   position: relative;
-  border: solid 2px red;
   width: 30px;
   height: 110px;
-  
-  }
-  
-  .bar-5 > div > .bar {
-    width: 12px;
-    height: 98.15px;
-    background: #F9D04C; 
-    opacity: 0.32;
-    border-radius: 2px; 
-    position: absolute;                 
-    bottom: 0;                       
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    text-align: center;
-  }
-  
-  .bar-5 > span{
-    color: #181616;
-    opacity: 0.6;
-    font-weight: 400;
-    font-size: 12px;
-    
-    }
-  
+}
+
+.bar-5 > div > .bar {
+  width: 12px;
+  height: 98.15px;
+  background: #f9d04c;
+  opacity: 0.32;
+  border-radius: 2px;
+  position: absolute;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.bar-5 > span {
+  color: #181616;
+  opacity: 0.6;
+  font-weight: 400;
+  font-size: 12px;
+}
