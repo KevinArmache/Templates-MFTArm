@@ -1,6 +1,8 @@
 import "../Home/Home.css";
 import Vector2 from "../../assets/Vector2.svg";
 import Vector3 from "../../assets/Vector3.svg";
+import Vector5 from "../../assets/Vector5.png";
+import BusinessWomen from "../../assets/businesswomen.png";
 
 function Home() {
   return (
@@ -91,7 +93,118 @@ function Home() {
 
       <div className="Right-side">
         <div className="First-container">
-          <div className="Second-container"></div>
+          <img
+            className="Vector5"
+            src={Vector5}
+            alt="Vector 5"
+            width="150"
+            height="150"
+          />
+          <div className="Second-container">
+            <img
+              className="Business-women"
+              src={BusinessWomen}
+              alt="Business Women"
+              width="500"
+              height="600"
+            />
+          </div>
+        </div>
+
+        <div className="Progress-bar">
+          {/* First progress bar section */}
+
+          <div className="First-bar">
+            <div className="Followers-target">
+              <span>Followers target</span>
+              <div>
+                <span>+219K</span>
+              </div>
+            </div>
+            <div>
+              <progress id="file" value="70" max="100"></progress>
+            </div>
+          </div>
+          {/* Second progress bar section */}
+          <div className="Second-bar">
+            <div className="Account-reach">
+              <div>
+                <span>Account reach</span>
+              </div>
+              <div>
+                {" "}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="25"
+                  fill="#13D85F"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div className="Account-reach-number">
+              <div>
+                <span>482k</span>
+              </div>
+              <div>
+                <span>+218k</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="three-bar">
+            <div className="Analytic-text">
+              <span>Analytic</span>
+            </div>
+
+            <div className="progress-container ">
+              <div className="progress-bar-container">
+                <div className="bar-1">
+                  <div className="bar-container">
+                    <div className="bar"></div>
+                  </div>
+                  <span>Mon</span>
+                </div>
+
+                <div className="bar-2">
+                  <div className="bar-container">
+                    <div className="bar"></div>
+                  </div>
+                  <span>Sun</span>
+                </div>
+
+                <div className="bar-3">
+                  <div className="bar-container">
+                    <div className="bar"></div>
+                  </div>
+                  <span>Mon</span>
+                </div>
+
+                <div className="bar-4">
+                  <div className="container-389K">
+                    <span className="Text-389K">389k</span>
+                  </div>
+                  <div className="bar-container">
+                    <div className="bar"></div>
+                  </div>
+                  <span>Mon</span>
+                </div>
+
+                <div className="bar-5">
+                  <div className="bar-container">
+                    <div className="bar"></div>
+                  </div>
+                  <span>Mon</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
