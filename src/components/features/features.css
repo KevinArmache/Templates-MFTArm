@@ -4,7 +4,7 @@
 .container-background {
   border: solid 2px black;
   width: 50%;
-  margin-top: 500px;
+  margin-top: 400px;
   height: 700px;
   background: linear-gradient(154.64deg, #22242f 3.72%, #1b1916 84.36%);
   width: 100%;
@@ -14,8 +14,14 @@
   margin-bottom: 200px;
 }
 
+.container-background-image {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    right: 0;
+  }
+
 .container-begin {
-  border: solid 2px red;
   padding-top: 50px;
   padding-bottom: 50px;
   color: white;
@@ -105,12 +111,63 @@
 }
 
 .statistic-container {
-  width: 45%;
+  width: 50%;
   height: 250px;
   background: #ffffff;
   box-shadow: 0px -5px 48px rgba(24, 23, 20, 0.04);
   border-radius: 16px;
-  border: solid 2px red;
   margin: 0 auto;
-  margin-top: -100px;
+  margin-top: -150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.statistic-element {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.statistic-element > div {
+    
+    display: flex;
+    justify-content: center;
+    width: 32%;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+}
+
+.statistic-element > div:nth-child(2) {
+    
+border-right: 1px #bababa solid;
+border-left: 1px #bababa solid;
+
+
+
+}
+.statistic-element > div > span{
+     width: 70%;
+   }
+
+.statistic-element > div > span:nth-child(1) {
+ font-weight: 700;
+ font-size: 48px;
+ height: 50%;
+
+}
+
+.statistic-element > div > span:nth-child(2) {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #181616;
+
+opacity: 0.6;
+}
+   
+   

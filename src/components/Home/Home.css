@@ -6,6 +6,7 @@ h1 {
 
 .Container {
   display: flex;
+  
 }
 .Left-side {
   padding-top: 150px;

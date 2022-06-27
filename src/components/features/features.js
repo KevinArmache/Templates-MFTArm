@@ -9,16 +9,16 @@ function Features() {
         <div className="statistic-container">
           <div className="statistic-element">
             <div>
-              <span></span>
-              <span></span>
+              <span>50k+</span>
+              <span>Company have try</span>
             </div>
             <div>
-              <span></span>
-              <span></span>
+              <span>98%</span>
+              <span>Our clients satisfied</span>
             </div>
             <div>
-              <span></span>
-              <span></span>
+              <span>30+</span>
+              <span>Over 30 features</span>
             </div>
           </div>
         </div>
