@@ -6,6 +6,22 @@ function Features() {
   return (
     <div className="container-features">
       <div className="container-background">
+        <div className="statistic-container">
+          <div className="statistic-element">
+            <div>
+              <span></span>
+              <span></span>
+            </div>
+            <div>
+              <span></span>
+              <span></span>
+            </div>
+            <div>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
         <div className="container-begin">
           <div className="container-feature">
             <div className="container-text">
