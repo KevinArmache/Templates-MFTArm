@@ -1,0 +1,65 @@
+.First-bar {
+    position: absolute;
+    width: 223px;
+    box-shadow: 0px 10.5178px 38.8349px rgba(0, 0, 0, 0.1);
+    height: 75px;
+    left: 1500px;
+    top: 300px;
+    background: #ffffff;
+    border-radius: 6.47249px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 10.5178px 38.8349px rgba(0, 0, 0, 0.1);
+  }
+  
+  .First-bar > div:nth-child(1) > span {
+    color: #181616;
+    opacity: 0.6;
+  }
+
+
+.Followers-target {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .Followers-target > div {
+    padding: 4.85437px 8.09061px;
+    border-radius: 26.699px;
+    background: rgba(19, 216, 95, 0.2);
+  }
+  
+  .Followers-target > div > span {
+    color: #13d85f;
+    font-weight: bold;
+    line-height: 12px;
+  }
+  
+
+  progress {
+    border: none;
+    width: 185px;
+    height: 9px;
+    background: #ffeeb6;
+    border-radius: 2.42718px;
+  }
+  
+  progress {
+    border-radius: 2.42718px;
+    color: lightblue;
+  }
+  
+  progress::-webkit-progress-value {
+    background: #f9d04c;
+  }
+  
+  progress::-moz-progress-bar {
+    background: #f9d04c;
+  }
+  
+  ::-webkit-progress-bar {
+    background-color: #ffeeb6;
+  }
