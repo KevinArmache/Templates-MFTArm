@@ -141,8 +141,8 @@ function Analyze() {
                 </div>
               </div>
               <div className="circle-text">
-                <span></span>
-                <span></span>
+                <span>New client</span>
+                <span>56/100</span>
               </div>
             </div>
           </div>
