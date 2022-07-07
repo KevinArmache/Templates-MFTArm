@@ -4,7 +4,7 @@ import Main from "./components/main/Main";
 import Home from "./components/Home/Home";
 import Features from "./components/features/features";
 import Analyze from "./components/analyze/analyze";
-import Selectyourplant from "./components/selectyourplant/selectyourplant";
+import Selectyourplan from "./components/selectyourplan/selectyourplan";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Home />
       <Features />
       <Analyze />
-      <Selectyourplant />
+      <Selectyourplan />
     </div>
   );
 }
