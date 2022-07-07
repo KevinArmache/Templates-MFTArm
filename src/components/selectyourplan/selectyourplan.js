@@ -35,7 +35,7 @@ function selectyourplan() {
               <span>/ Month</span>
             </div>
             <div className="plan-card-price-end">
-              <span>Just started? try this</span>
+              <span>Just started ? try this</span>
             </div>
 
             <div className="plan-card-conditions">
@@ -111,7 +111,7 @@ function selectyourplan() {
                 >
                   <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
                 </svg>
-                <span>10+ features</span>
+                <span>20+ features</span>
               </div>
               <div className="plan-card-conditions-checked-black">
                 <svg
@@ -124,7 +124,7 @@ function selectyourplan() {
                 >
                   <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
                 </svg>
-                <span>50gb cloud drive</span>
+                <span>100gb cloud drive</span>
               </div>
               <div className="plan-card-conditions-checked-black">
                 <svg
@@ -137,7 +137,7 @@ function selectyourplan() {
                 >
                   <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
                 </svg>
-                <span>Customer service 12h</span>
+                <span>Customer service 24h</span>
               </div>
             </div>
 
@@ -147,14 +147,14 @@ function selectyourplan() {
           </div>
           <div className="plan-card">
             <div className="plan-card-title">
-              <h2>Basic</h2>
+              <h2>Advanced</h2>
             </div>
             <div className="plan-card-price">
-              <span>$29</span>&nbsp;&nbsp;
+              <span>$59</span>&nbsp;&nbsp;
               <span>/ Month</span>
             </div>
             <div className="plan-card-price-end">
-              <span>Just started? try this</span>
+              <span>For big company</span>
             </div>
 
             <div className="plan-card-conditions">
@@ -170,7 +170,7 @@ function selectyourplan() {
                 >
                   <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
                 </svg>
-                <span>10+ features</span>
+                <span>All features</span>
               </div>
               <div className="plan-card-conditions-checked">
                 <svg
@@ -183,7 +183,7 @@ function selectyourplan() {
                 >
                   <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
                 </svg>
-                <span>50gb cloud drive</span>
+                <span>Unlimited cloud drive</span>
               </div>
               <div className="plan-card-conditions-checked">
                 <svg
@@ -196,7 +196,7 @@ function selectyourplan() {
                 >
                   <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
                 </svg>
-                <span>Customer service 12h</span>
+                <span>Customer service 24h</span>
               </div>
             </div>
 
