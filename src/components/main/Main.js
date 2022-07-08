@@ -1,4 +1,3 @@
-import Vector4 from "../../assets/Vector4.svg";
 import "./Main.css";
 
 function Main() {

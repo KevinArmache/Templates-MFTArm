@@ -1,26 +1,172 @@
 .container-features {
-    overflow: hidden;
+  overflow: hidden;
 }
-.container-background{
-    border: solid 2px black;
-    width: 50%;
-    margin-top: 500px ;
-    height: 707px;
-    background: linear-gradient(154.64deg, #22242F 3.72%, #1B1916 84.36%);
-    transform: rotate(357deg);
-    width:2000px;
-    margin-left: -50px ;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.container-background {
+  border: solid 2px black;
+  width: 50%;
+  margin-top: 400px;
+  height: 700px;
+  background: linear-gradient(154.64deg, #22242f 3.72%, #1b1916 84.36%);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.container-background-image {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    right: 0;
+  }
+
 .container-begin {
-    border: solid 2px red;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    color: white;
-    height: 100%;
-    width: 95%;
-    transform: rotate(2.9deg);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
+.container-feature {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container-condition {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+}
+
+.container-text > div:nth-child(1) {
+  width: 350px;
+}
+
+.container-text > div:nth-child(1) > p {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 61px;
+}
+
+.container-feature > div:nth-child(1) > div:nth-child(2) {
+  text-align: center;
+  border-radius: 8px;
+  padding: 20px, 28px, 20px, 28px;
+  background-color: #ffeeb6;
+  width: 195px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-feature > div:nth-child(1) > div:nth-child(2) > a {
+  text-decoration: none !important;
+  color: #181616;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.epingle-container {
+  width: 90px;
+  height: 90px;
+  border: solid white 1px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.epingle-image {
+  width: 50px;
+  height: 50px;
+}
+
+.epingle-text > p {
+  font-size: 20px;
+  font-weight: 400px;
+  opacity: 0.6;
+  width: 286px;
+  color: white;
+}
+
+.give-all-control > h4 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.free-version > h4 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.statistic-container {
+  width: 50%;
+  height: 250px;
+  background: #ffffff;
+  box-shadow: 0px -5px 48px rgba(24, 23, 20, 0.04);
+  border-radius: 16px;
+  margin: 0 auto;
+  margin-top: -150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.statistic-element {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.statistic-element > div {
+    
+    display: flex;
+    justify-content: center;
+    width: 32%;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+}
+
+.statistic-element > div:nth-child(2) {
+    
+border-right: 1px #bababa solid;
+border-left: 1px #bababa solid;
+
+
+
+}
+.statistic-element > div > span{
+     width: 70%;
+   }
+
+.statistic-element > div > span:nth-child(1) {
+ font-weight: 700;
+ font-size: 48px;
+ height: 50%;
+
+}
+
+.statistic-element > div > span:nth-child(2) {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #181616;
+
+opacity: 0.6;
+}
+   
+   
