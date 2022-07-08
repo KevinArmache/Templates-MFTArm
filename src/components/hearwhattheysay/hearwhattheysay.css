@@ -1,0 +1,236 @@
+
+.container-background-hwts {
+  border: solid 2px black;
+  width: 50%;
+  height: 700px;
+  background: linear-gradient(154.64deg, #22242f 3.72%, #1b1916 84.36%);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.statistic-container-hwts {
+  width: 50%;
+  height: 250px;
+  background: #ffffff;
+  box-shadow: 0px -5px 48px rgba(24, 23, 20, 0.04);
+  border-radius: 16px;
+  margin: 0 auto;
+  margin-top: -150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.statistic-element-hwts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.statistic-element-hwts > div {
+  display: flex;
+  justify-content: center;
+  width: 32%;
+  align-items: center;
+  flex-direction: column;
+  height: 150px;
+}
+
+.statistic-element-hwts > div:nth-child(2) {
+  border-right: 1px #bababa solid;
+  border-left: 1px #bababa solid;
+}
+.statistic-element-hwts > div > div {
+  width: 70%;
+  display: flex;
+  margin-right: 5px;
+}
+.statistic-element-hwts > div > div > span {
+  margin-right: 10px;
+}
+.statistic-element-hwts > div > div > div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.statistic-element-hwts > div > div > span:nth-child(1) {
+  font-weight: 700;
+  font-size: 48px;
+  height: 50%;
+}
+
+.statistic-element-hwts > div > span {
+  font-family: "Product Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #181616;
+  display: block;
+  width: 70%;
+  opacity: 0.6;
+}
+
+.Star {
+  width: 40px;
+  height: 40px;
+}
+.Discuss {
+  width: 40px;
+  height: 40px;
+}
+
+
+/*  */
+
+
+.container-begin-hwts {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .container-feature-hwts {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .container-condition-hwts {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+  }
+  
+  .container-text-hwts > div:nth-child(1) {
+    width: 400px;
+  }
+  
+  .container-text-hwts > div:nth-child(1) > p {
+    font-size: 44px;
+    font-weight: 700;
+  
+    line-height: 61px;
+  
+  }
+  
+  .container-feature-hwts > div:nth-child(1) > div:nth-child(2) {
+    text-align: center;
+    border-radius: 8px;
+    padding: 20px, 28px, 20px, 28px;
+    background-color: #ffeeb6;
+    width: 195px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container-feature-hwts > div:nth-child(1) > div:nth-child(2) > a {
+    text-decoration: none !important;
+    color: #181616;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .container-avatar {
+    display: flex;
+    width: 100%;
+  }
+  
+  .epingle-container-hwts {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .epingle-image-hwts {
+    width: 90px;
+    height: 90px;
+  }
+
+  .pseudo-avatar {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+  .pseudo-avatar  > span:nth-child(1) {
+    font-family: 'Product Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    /* identical to box height, or 34px */
+    
+    
+    /* light */
+    
+    color: #FFFFFF;
+    
+    opacity: 0.4;
+  }
+  .pseudo-avatar  > span:nth-child(2) {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    /* identical to box height, or 34px */
+    
+    
+    /* light */
+    
+    color: #FFFFFF;
+  }
+  
+  
+  .epingle-text-hwts > p {
+    font-size: 20px;
+    font-weight: 400px;
+    opacity: 0.6;
+    width: 286px;
+    color: white;
+  }
+  
+  .give-all-control-hwts > h4 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  
+
+  
+  .free-version-hwts > h4 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .star-collection {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .star-collect {
+
+    width: 15%px;
+    height: 40px;
+  }

@@ -1,0 +1,136 @@
+.container-footer {
+  background-color: #ffecaf;
+  display: flex;
+  width: 100%;
+  padding-top: 100px;
+  justify-content: space-evenly;
+}
+
+.container-question {
+  width: 30%;
+  height: 100%;
+  margin-top: 50px;
+}
+
+.container-image {
+  width: 40%;
+  
+  display: flex;
+  justify-content: center;
+}
+.women {
+  width: 400px;
+  height: 500px;
+}
+
+.container-question-text > p {
+  font-family: "Product Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 140%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-question-text {
+  width: 70%;
+  margin-bottom: 25px;
+}
+
+.container-question-input {
+  width: 70%;
+}
+
+.input-message {
+ 
+  width: 100%;
+  background-color: #ffecaf;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  margin-bottom: 50px;
+  padding-bottom: 10px;
+  border-bottom: solid 3px #a29670;
+  border-top: solid 3px #ffecaf;
+  border-left: solid 3px #ffecaf;
+  border-right: solid 3px #ffecaf;
+}
+.input-message:focus {
+outline: none;
+
+  }
+  
+
+.container-submit-faq {
+  width: 100%;
+}
+
+.container-submit {
+  width: 60%;
+  height: 64px;
+  border: solid 2px #c7b989;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-submit {
+  font-family: "Product Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  /* identical to box height, or 24px */
+  background-color: #ffecaf;
+  border-width: 0px;
+  border: none;
+  outline: none;
+  color: #6c634c;
+ 
+
+  /* dark */
+
+  color: #181616;
+
+  opacity: 0.8;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.container-submit-faq {
+  display: flex;
+}
+
+.container-faq {
+  width: 40%;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.FAQ {
+  font-family: "Product Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  margin: 0 auto;
+  text-decoration-line: underline;
+
+  /* dark */
+
+  color: #181616;
+
+  opacity: 0.5;
+}
